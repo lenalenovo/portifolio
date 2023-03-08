@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 20vw;
+    margin-top: 10vh;
+}
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between; /* coloca nas extremidades*/
+    align-items: center; 
+    color: rgb(177, 27, 52);
+    height: 10%;
+    padding: 10px;
+}
+
+#navegador{
+   color: rgb(177, 27, 52);
+   font-family: serif;
+   padding: 20px;
+   text-decoration: none;
+}
+
+h1{
+   text-transform: initial;
+}
+
+main{
+   min-height: 89vh;
+   background-image: radial-gradient(rgb(177, 27, 52), rgb(249, 212, 218));
+}

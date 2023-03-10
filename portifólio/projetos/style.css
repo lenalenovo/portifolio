@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: serif;
+    
+}
+
+header{
+     background-color: antiquewhite;
+     display: flex;
+     justify-content: space-between; /* coloca nas extremidades*/
+     align-items: center; 
+     color: rgb(177, 27, 52);
+     height: 10%;
+     padding: 10px;
+}
+
+#navegador{
+    color: rgb(177, 27, 52);
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+}
+
+h1{
+    text-transform: initial;
+    color: rgb(177, 27, 52);
+}
+
+main{
+    min-height: 89vh;
+    background-image: radial-gradient(rgb(177, 27, 52), rgb(249, 212, 218));
+}
+
+h2{
+    color: antiquewhite;
+}
+
+.sessao1 {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.sessao2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px; 
+    justify-content: space-around;
+    }
+
+
+.sessao2_titulo {
+    padding: 2px;
+    border-bottom: antiquewhite solid 1px; /*define onde a linha vai ficar*/
+    color: antiquewhite;
+}
+
+.sessao2_conteiners {
+    flex-direction: column;
+
+}
+
+.sessao2_titulo_cubinhos{
+    color: antiquewhite;
+}
+.cubinhos {
+    height: 100%;
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.28);
+    display: flex;
+    
+}
+
+.cubinhos a{
+    color: inherit;
+   
+    
+}
+
+
+footer {
+    background-color: antiquewhite;
+    height: 2px;
+    display: flex;
+    color: rgb(177, 27, 52);
+    justify-content: center;
+}
+
+
+
+

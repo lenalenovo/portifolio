@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: serif;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 89vh;
+    background-image: radial-gradient(rgb(177, 27, 52), rgb(249, 212, 218))
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 20vw;
+    margin-top: 10vh;
+}
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between; /* coloca nas extremidades*/
+    align-items: center; 
+    color: rgb(177, 27, 52);
+    height: 10%;
+    padding: 10px;
+}
+
+#navegador{
+   color: rgb(177, 27, 52);
+   font-family: serif;
+   padding: 20px;
+   text-decoration: none;
+}
+
+h1{
+   text-transform: initial;
+}
+
+
+input , textarea {
+    border-radius: 5px;
+    border: none;
+}
